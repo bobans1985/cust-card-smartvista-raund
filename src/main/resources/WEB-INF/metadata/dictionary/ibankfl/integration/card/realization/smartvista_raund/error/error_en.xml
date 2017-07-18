@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LOCALIZATIONS xmlns="http://www.custsystems.com/2009/plugins"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	           xsi:schemaLocation="http://www.custsystems.com/2009/plugins /WEB-INF/metadata/xsd/custerp.xsd">
+
+	<L NAME="MENU" VALUE="SmartVista Raund ApiGate errors"/>
+	<L NAME="MDL_CAPTION" VALUE="SmartVista Raund ApiGate errors"/>
+	<L NAME="LIST_CAPTION" VALUE="SmartVista Raund ApiGate errors"/>
+	<L NAME="SELECT_CAPTION" VALUE="SmartVista Raund ApiGate errors - select"/>
+	<L NAME="NEW_CAPTION" VALUE="SmartVista Raund ApiGate error - new"/>
+	<L NAME="VIEW_CAPTION" VALUE="SmartVista Raund ApiGate error" />
+
+	<L NAME="ID" VALUE="Code"/>
+	<L NAME="TYPE" VALUE="Type"/>
+	<L NAME="CAPTION" VALUE="Name"/>
+	<L NAME="DESCRIPTION" VALUE="Description"/>
+
+</LOCALIZATIONS>

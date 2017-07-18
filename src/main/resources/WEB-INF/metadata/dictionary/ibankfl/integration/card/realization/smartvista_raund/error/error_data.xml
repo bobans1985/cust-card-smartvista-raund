@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DATA xmlns="http://www.custsystems.com/2009/plugins"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xsi:schemaLocation="http://www.custsystems.com/2009/plugins /WEB-INF/metadata/xsd/custerp.xsd">
+	<ROWS>
+		<ROW ID="0" TYPE="Info" MESSAGE="OK"/>
+		<ROW ID="11" TYPE="Error" MESSAGE="Незарегистрированный идентификатор вызывающей системы (callingSystem)"/>
+		<ROW ID="12" TYPE="Error" MESSAGE="Ошибка аутентификации вызывающей системы"/>
+		<ROW ID="13" TYPE="Error" MESSAGE="Метод сервиса недоступен для вызывающей системы"/>
+		<ROW ID="21" TYPE="Error" MESSAGE="Неизвестный тип идентификатора"/>
+		<ROW ID="22" TYPE="Error" MESSAGE="Неподходящий для метода тип идентификатора"/>
+		<ROW ID="23" TYPE="Error" MESSAGE="Некорректное значение идентификатора"/>
+		<ROW ID="24" TYPE="Error" MESSAGE="Некорректное значение аргумента запроса. Дополнительное описание в поле description."/>
+		<ROW ID="31" TYPE="Error" MESSAGE="Повторный запрос"/>
+		<ROW ID="32" TYPE="Error" MESSAGE="Оригинальный запрос не найден"/>
+		<ROW ID="33" TYPE="Error" MESSAGE="Оригинальный запрос уже откачен"/>
+	</ROWS>
+</DATA>

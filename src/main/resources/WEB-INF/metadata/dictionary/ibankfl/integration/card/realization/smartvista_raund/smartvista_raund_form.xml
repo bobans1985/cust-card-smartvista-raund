@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FORM xmlns="http://www.custsystems.com/2009/plugins"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.custsystems.com/2009/plugins /WEB-INF/metadata/xsd/custerp.xsd">
+    <WIDGETS>
+        <WIDGET NAME="UPDATE" CLASS_REF="ITEM.PANEL">
+            <COMPONENTS>
+                <COMPONENT CLASS_REF="GROUPBOX">
+                <PROPERTIES>
+                    <PROPERTY NAME="WIDTH" VALUE="100%"/>
+                    <PROPERTY NAME="MOLD" VALUE="3d"/>
+                </PROPERTIES>
+                <COMPONENT CLASS_REF="CAPTION">
+                    <PROPERTIES>
+                        <PROPERTY NAME="LABEL" LVALUE="caption"/>
+                    </PROPERTIES>
+                </COMPONENT>
+
+                <COMPONENT FIELDNAME="host"/>
+                <COMPONENT FIELDNAME="connection_timeout"/>
+                <COMPONENT FIELDNAME="read_timeout"/>
+
+                <COMPONENT CLASS_REF="GROUPBOX">
+                    <PROPERTIES>
+                        <PROPERTY NAME="WIDTH" VALUE="100%"/>
+                    </PROPERTIES>
+                    <COMPONENT CLASS_REF="CAPTION">
+                        <COMPONENT FIELDNAME="proxy/enabled">
+                            <PROPERTIES>
+                                <PROPERTY NAME="LABEL" LVALUE="proxy/enabled"/>
+                            </PROPERTIES>
+                        </COMPONENT>
+                    </COMPONENT>
+                    <COMPONENT FIELDNAME="proxy/type" CLASS_REF="COMBOBOX">
+                        <PROPERTIES>
+                            <PROPERTY NAME="RANGE" VALUE="DIRECT=DIRECT;HTTP=HTTP;SOCKS=SOCKS"/>
+                        </PROPERTIES>
+                    </COMPONENT>
+                    <SEPARATOR/>
+                    <COMPONENT FIELDNAME="proxy/host"/>
+                    <SEPARATOR/>
+                    <COMPONENT FIELDNAME="proxy/port"/>
+                    <SEPARATOR/>
+                    <COMPONENT FIELDNAME="proxy/user"/>
+                    <SEPARATOR/>
+                    <COMPONENT FIELDNAME="proxy/password"/>
+                </COMPONENT>
+
+
+                <COMPONENT CLASS_REF="GROUPBOX">
+                    <PROPERTIES>
+                        <PROPERTY NAME="WIDTH" VALUE="100%"/>
+                    </PROPERTIES>
+                    <COMPONENT CLASS_REF="CAPTION">
+                        <PROPERTIES>
+                            <PROPERTY NAME="LABEL" LVALUE="smartvista_raund/caption"/>
+                        </PROPERTIES>
+                    </COMPONENT>
+                        <COMPONENT FIELDNAME="smartvista_raund/uri_echo" DEFAULT_VALUE="/"/>
+                        <COMPONENT FIELDNAME="smartvista_raund/uri_balance" DEFAULT_VALUE="apigate/command/getCardBalance"/>
+                        <COMPONENT FIELDNAME="smartvista_raund/uri_stm" DEFAULT_VALUE="apigate/command/getTransactions"/>
+                        <COMPONENT FIELDNAME="smartvista_raund/uri_block" DEFAULT_VALUE="apigate/command/blockCard"/>
+                        <COMPONENT FIELDNAME="smartvista_raund/uri_status" DEFAULT_VALUE="apigate/command/cardStatusInquiry"/>
+                        <SEPARATOR/>
+                        <COMPONENT FIELDNAME="smartvista_raund/stm_codes" DEFAULT_VALUE="659,677,680,760,757,774,700,702,781,785"/>
+                        <COMPONENT FIELDNAME="smartvista_raund/block_status" DEFAULT_VALUE="05"/>
+                    </COMPONENT>
+
+                </COMPONENT>
+            </COMPONENTS>
+        </WIDGET>
+    </WIDGETS>
+</FORM>

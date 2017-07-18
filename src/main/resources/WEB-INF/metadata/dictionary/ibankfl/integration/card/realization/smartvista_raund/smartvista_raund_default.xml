@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LOCALIZATIONS xmlns="http://www.custsystems.com/2009/plugins"
+			   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			   xsi:schemaLocation="http://www.custsystems.com/2009/plugins /WEB-INF/metadata/xsd/custerp.xsd">
+
+	<L NAME="caption" VALUE="Параметры соединения с SmartVista RAUND Api-Gate"/>
+	<L NAME="connection_timeout" VALUE="Таймаут соединения (мсек)"/>
+	<L NAME="host" VALUE="URL сервиса Api-Gate ( http(s)://URL:Port/ )"/>
+	<L NAME="read_timeout" VALUE="Таймаут ожидания ответа (мсек)"/>
+
+	<!--<L NAME="request_method" VALUE="Метод запроса"/>-->
+
+	<LS NAME="smartvista_raund">
+		<L NAME="caption" VALUE="Дополнительные параметры"/>
+		<L NAME="uri_echo" VALUE="URI echo"/>
+		<L NAME="uri_balance" VALUE="URI запроса баланса"/>
+		<L NAME="uri_stm" VALUE="URI запроса выписки"/>
+		<L NAME="uri_block" VALUE="URI блокировки карты"/>
+		<L NAME="uri_status" VALUE="URI статуса карты"/>
+		<L NAME="stm_codes" VALUE="Коды операций, которые будут включены в выписку"/>
+		<L NAME="block_status" VALUE="Статус, при блокировке карты"/>
+	</LS>
+
+	<LS NAME="proxy">
+		<L NAME="enabled" VALUE="Использовать прокси сервер"/>
+		<L NAME="type" VALUE="Тип"/>
+		<L NAME="host" VALUE="Хост"/>
+		<L NAME="port" VALUE="Порт"/>
+		<L NAME="user" VALUE="Учетная запись"/>
+		<L NAME="password" VALUE="Пароль"/>
+	</LS>
+
+</LOCALIZATIONS>

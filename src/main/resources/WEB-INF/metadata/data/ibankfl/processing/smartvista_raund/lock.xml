@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:chan="http://www.bpc.ru/apigate/command/blockCard/" xmlns:gen="http://www.bpc.ru/apigate/general/">
+<soapenv:Header/>
+<soapenv:Body>
+	<chan:blockCardRequest>
+		<gen:cardIdentification>
+			<gen:cardNumber>{PAN}</gen:cardNumber>
+		</gen:cardIdentification>
+		<gen:hotCardStatus>{STATUS}</gen:hotCardStatus>
+	</chan:blockCardRequest>
+</soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MDL xmlns="http://www.custsystems.com/2009/plugins"
+	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xsi:schemaLocation="http://www.custsystems.com/2009/plugins /WEB-INF/metadata/xsd/custerp.xsd">
+	<PROPERTIES>
+		<PROPERTY NAME="CAPTION" LVALUE="MDL_CAPTION"/>
+		<PROPERTY NAME="SOURCE_TYPE" VALUE="XML"/>
+	</PROPERTIES>
+	<FIELDS>
+		<FIELD NAME="host" FIELD_TYPE="STRING" SIZE="255" NOT_NULL="true"/>
+
+		<FIELD NAME="connection_timeout" FIELD_TYPE="INTEGER" MIN_VALUE="1000" MAX_VALUE="6000000" DEFAULT_VALUE="300000"/>
+		<FIELD NAME="read_timeout" FIELD_TYPE="INTEGER" MIN_VALUE="1000" MAX_VALUE="6000000" DEFAULT_VALUE="300000"/>
+
+		<FIELD NAME="proxy/enabled" FIELD_TYPE="BOOLEAN" DEFAULT_VALUE="false" NOT_NULL="true"/>
+		<FIELD NAME="proxy/type" FIELD_TYPE="STRING" DEFAULT_VALUE="DIRECT" SIZE="20"/>
+		<FIELD NAME="proxy/host" FIELD_TYPE="STRING" SIZE="255"/>
+		<FIELD NAME="proxy/port" FIELD_TYPE="INTEGER"/>
+		<FIELD NAME="proxy/user" FIELD_TYPE="STRING" SIZE="64"/>
+		<FIELD NAME="proxy/password" FIELD_TYPE="SIMPLE_PASSWORD" SIZE="64"/>
+
+		<FIELD NAME="smartvista_raund/uri_echo" FIELD_TYPE="STRING" SIZE="250"/>
+		<FIELD NAME="smartvista_raund/uri_balance" FIELD_TYPE="STRING" SIZE="250"/>
+		<FIELD NAME="smartvista_raund/uri_stm" FIELD_TYPE="STRING" SIZE="250" />
+		<FIELD NAME="smartvista_raund/uri_block" FIELD_TYPE="STRING" SIZE="250"/>
+		<FIELD NAME="smartvista_raund/uri_status" FIELD_TYPE="STRING" SIZE="250"/>
+
+		<FIELD NAME="smartvista_raund/stm_codes" FIELD_TYPE="STRING" SIZE="500"/>
+		<FIELD NAME="smartvista_raund/block_status" FIELD_TYPE="STRING" SIZE="250"/>
+
+	</FIELDS>
+</MDL>

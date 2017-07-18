@@ -1,0 +1,23 @@
+<MDL xmlns="http://www.custsystems.com/2009/plugins"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xsi:schemaLocation="http://www.custsystems.com/2009/plugins /WEB-INF/metadata/xsd/custerp.xsd">
+	<PROPERTIES>
+		<PROPERTY NAME="CAPTION" LVALUE="MDL_CAPTION"/>
+		<PROPERTY NAME="SOURCE_TYPE" VALUE="XML"/>
+		<PROPERTY NAME="XML_LOCATOR" VALUE="./"/>
+		<PROPERTY NAME="TAG_NAME" VALUE="ROWS"/>
+		<PROPERTY NAME="ALL" VALUE="true"/>
+		<PROPERTY NAME="IS_CASHED" VALUE="true"/>
+	</PROPERTIES>
+	<FIELDS>
+		<FIELD NAME="ID" FIELD_TYPE="STRING" SIZE="20" NOT_NULL="true"/>
+		<FIELD NAME="TYPE" FIELD_TYPE="STRING" SIZE="30"/>
+		<FIELD NAME="MESSAGE" FIELD_TYPE="STRING" SIZE="255"/>
+	</FIELDS>
+	<ORDERS>
+		<ORDER FIELDNAME="ID"/>
+	</ORDERS>
+	<PRIMARY_KEY>
+		<FIELD NAME="ID"/>
+	</PRIMARY_KEY>
+</MDL>

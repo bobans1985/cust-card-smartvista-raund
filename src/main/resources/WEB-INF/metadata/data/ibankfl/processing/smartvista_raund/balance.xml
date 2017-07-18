@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:get="http://www.bpc.ru/apigate/command/getCardBalance/" xmlns:gen="http://www.bpc.ru/apigate/general/">
+<soapenv:Header/>
+<soapenv:Body>
+	<get:getCardBalanceRequest>
+		<get:cardIdentification>
+			<gen:cardNumber>{PAN}</gen:cardNumber>
+		</get:cardIdentification>
+	</get:getCardBalanceRequest>
+</soapenv:Body>
+</soapenv:Envelope>

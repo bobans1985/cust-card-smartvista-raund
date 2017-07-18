@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:get="http://www.bpc.ru/apigate/command/getTransactions/" xmlns:gen="http://www.bpc.ru/apigate/general/">
+	<soapenv:Header/>
+	<soapenv:Body>
+		<get:getTransactionsRequest>
+			<get:cardIdentification>
+				<gen:cardNumber>{PAN}</gen:cardNumber>
+			</get:cardIdentification>
+			<get:period>
+				<gen:start>{$M(from_date,date,yyyy-MM-dd)}</gen:start>
+				<gen:end>{$M(to_date,date,yyyy-MM-dd)}</gen:end>
+			</get:period>
+		</get:getTransactionsRequest>
+	</soapenv:Body>
+</soapenv:Envelope>
+

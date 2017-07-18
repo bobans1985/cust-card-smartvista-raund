@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:car="http://www.bpc.ru/apigate/command/cardStatusInquiry/" xmlns:gen="http://www.bpc.ru/apigate/general/">
+<soapenv:Header/>
+<soapenv:Body>
+	<car:cardStatusInquiryRequest>
+		<car:cardIdentification>
+			<gen:cardNumber>{PAN}</gen:cardNumber>
+		</car:cardIdentification>
+	</car:cardStatusInquiryRequest>
+</soapenv:Body>
+</soapenv:Envelope>

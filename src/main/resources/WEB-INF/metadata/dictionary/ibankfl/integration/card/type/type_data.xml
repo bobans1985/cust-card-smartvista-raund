@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DATA xmlns="http://www.custsystems.com/2009/plugins"
+	  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xsi:schemaLocation="http://www.custsystems.com/2009/plugins /WEB-INF/metadata/xsd/custerp.xsd">
+	<ROWS>
+		<ROW CODE="SmartVista Raund"
+			 NAME="SmartVista Raund"
+			 DESCRIPTION="SmartVista Raund API-GATE card processing"
+			 IMAGE_REF=""
+			 HOVERIMAGE_REF=""
+			 CLASS_NAME="com.custsystems.integration.processing.smartvista_raund.ProcessingConnectorSmartVistaRaund"
+			 PROPERTY_DICTIONARY="ibankfl/integration/card/realization/smartvista_raund"/>
+	</ROWS>
+</DATA>
+
+
